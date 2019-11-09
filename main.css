@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    font-size: 10px;
+}
+
+body {
+    text-align: center;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #aaa;
+}
+  
+  nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    vertical-align: middle;
+    padding-right: 3rem;
+  }
+
+nav h2 {
+    font-size: 2rem;
+    margin-right: auto;
+    padding-left: 2rem;
+    width: 20%;
+}
+
+nav ul {
+  vertical-align: center;
+  padding-top: 1rem;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 2rem;
+    display: inline;
+    font-size: 1.5rem;
+    
+
+}
+
+  header {
+      padding: 25%;
+
+  }
+
+  section {
+      min-height: 20rem;
+  }
+
+  #biography {
+      background-color: lightgrey;
+  }
+
+  section h2 {
+      font-size: 2rem;
+      margin-top: 2rem;
+  }
+
+  #projects {
+      text-align: center;
+  }
+  #greybox { 
+    border: 1px solid darkgrey;
+      width: 25%;
+      height: 10rem;
+      margin: auto;
+      background-color: grey;
+      color: white;
+      padding: 2rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+  }
+
+  #greybox p {
+      vertical-align: middle;
+  }
+
+  .button-container {
+        width: 60%;  
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+
+  }
+ 
+  button {
+      background-color: grey;
+      color: white;
+  }
