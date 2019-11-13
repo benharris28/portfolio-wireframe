@@ -13,43 +13,59 @@
                 <h2>Ben Harris</h2>
                 <p>benjaminharris28@gmail.com</p>
         </div>
-        <ul>
-            <li>Bio</li>
-            <li>Projects</li>
-            <li>Github</li>
-            <li>LinkedIn</li>
+        <ul class="nav-links">
+            <li><a href="#Bio">Bio</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li> 
         </ul>
         <div class="hamburger">&#9776;</div>
    
     </nav>
     <main role="main">
         <header role="banner">
-            <h1>Hi, I'm Ben! I'm a frontend web developer!</h1>
+            <h1>Hi!</h1>
+            <h2> I'm Ben! I'm a frontend web developer!</h2>
         </header>
+       
+        <a name="Bio"></a>
+        
         <section id="biography">
             <div class="container">
-            <h2>Bio</h2>
-    
-        </div>
+                <h2>Bio</h2>
+
+                <p>I'm a frontend web developer and current student at Bloc.</p>
+                <p>I was an early employee at Uber specializing in operations. I really enjoyed working with product teams and engineers to bring ideas to life and into the hands of users. That's what inspired me to jump into coding.</p>
+            </div>
         </section>
         <section id="projects">
+            <a name="Projects"></a>
             <h2>Projects</h2>
-                    <div class="greybox projectone">
-                        <p>Project Image</p>
-                    </div>
+                <div class="project-container">
+                    <img src="questionscreen.png" class="greybox projectone">
+                    
                     <div class="project-info projectone">
-                        <h3>Project Example 1</h3>
-                        <p>Bla Bla Bla Project</p>
+                        <h3>Peyton Manning Challenge</h3>
+                        <p>A quiz app on the career of future hall of fame QB Peyton Manning. Built with HTML, CSS, JS and jQuery</p>
                         <div class="button-box">
-                        <button type="button">Live Page</button>
-                        <button type="button" id="buttontwo">Github Repo</button>
-                        </div>
+                        
+                        <a href="https://benharris28.github.io/quiz-app/" class="button">Live Page</a>
+                        <a href="https://github.com/benharris28/quiz-app" class="button two">Github Repo</a>
                     </div>
-        </section>
+                    </div>
+                </div> 
+            </section>
        
         <footer>
             <h2>Contact</h2>
+            <a name="Contact"></a>
+            <div class="contactbox">
+                <a href="https://www.linkedin.com/in/ben-harris-51137518/">LinkedIn</a>
+                <a href="https://github.com/benharris28">Github</a>
+            </div>
+
         </footer>
     </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
